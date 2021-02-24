@@ -1,0 +1,87 @@
+
+.meniu {
+		height: 25%;
+		width: 160px;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		background-color: #111;
+		overflow-x: hidden;
+		padding-top: 16px;
+}
+.cont {
+
+	background-color:black;
+	color:gold;
+		  margin-left: 160px;
+		  padding: 10px 10px;
+		  width: 1040px;
+}
+.meniu a{
+		  padding: 6px 8px 6px 16px;
+		  text-decoration: none;
+		  font-size: 20px;
+		  color: white;
+		  background-color: purple;
+		  display: block;
+}
+.caseta_log{
+width: 50px;
+height: 200px;
+
+}
+.meniu a:hover {
+		color: yellow;
+}
+a.selectat{
+	background-color:red;
+}
+.portret{
+		height: auto;
+		width: 170px;
+
+}
+
+
+.main {
+		  margin-left: 160px;
+		  padding: 10px 10px;
+		  width: 1040px;
+		}
+.revista{
+		float : left;
+		border-radius:30px;
+		width:200px;
+		padding: 10px 10px;
+		background-color:#f4c242;
+		}
+.comanda{
+
+		float : left;
+		border-radius:30px;
+		width:300px;
+		padding: 10px 10px;
+		background-color:#f4c242;
+		float: center;
+}
+.final{
+	text-align:middle;
+	margin-left: 160px;
+	 padding: 10px 10px;
+	width: 1040px;
+
+
+}
+ label{
+    display: inline-block;
+    float: right;
+    clear: right;
+    width: 250px;
+    text-align: left;
+}
+input {
+  display: inline-block;
+  float: left;
+}
+	<link rel="shortcut icon"  href="imagini/icon.png">

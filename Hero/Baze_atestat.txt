@@ -1,0 +1,58 @@
+CREATE TABLE Utilizatori
+(
+	UserName varchar(30) primary key,
+	Parola varchar(30) not null,
+	Nume varchar(20) not null,
+	Prenume varchar(35) not null,
+	Adresa varchar(50) not null,
+	Oras varchar(30) not null,
+	Mail varchar(50) not null,
+	Telefon int not null
+);
+
+
+insert into utilizatori(UserName,Parola,Nume,Prenume,Adresa,Oras,Telefon)
+values("Marius","223","Radu","Marius-Alexandru","Strada test numar 89","Bucuresti",072812323221);
+
+
+CREATE TABLE Reviste
+(  
+	nume varchar(50) primary key,
+   	poza varchar(50) not null,
+	stoc int not null,
+	pret int not null,
+	descriere varchar(500) not null
+);
+
+insert into reviste
+(nume,poza,stoc,pret,descriere)
+Values("MoarteaCap","imagini/test.jpg",20,30,"Editie speciala cu finalul tragic al capitanului America");
+
+
+insert into reviste
+(nume,poza,stoc,pret,descriere)
+Values("Civil War","imagini/Civil War.jpg",2,35,"Lucrurile nu merg prea bine in universul marvel");
+
+
+CREATE TABLE Cos
+(
+	id varchar(50) primary key,
+	tip varchar(50) not null,
+	nume varchar(50) not null,
+	pret int not null,
+	cantitate int not null
+);
+insert into cos
+(id,tip,nume,cantitate)
+Values()
+
+CREATE TABLE facturi
+(
+	id int auto_increment primary key,
+	cont varchar(50) not null,
+	status varchar(100) not null,
+	produse varchar(8000) not null,
+	cost int(20) not null
+);
+insert into facturi (cont,nume,prenume,oras,adresa,status,Mail,produse,cost)
+values("cont","nume","prenume","oras","adresa","status","Mail","produse",10);
