@@ -1,4 +1,8 @@
 # Hero
+
+*DISCLAIMER* the code is written with romanian variable/function and file names
+
+
 A shop website where you can buy geeky stuff.
 
 FEATURES:
